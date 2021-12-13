@@ -41,7 +41,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                    <h2 class="fs-2 m-0 text-white" >Starred Messages</h2>
+                    <h2 class="fs-2 m-0 text-white">Dashboard</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -68,7 +68,56 @@
             </nav>
 
             <div class="container-fluid px-4">
-                <div class="row my-2">
+                <div class="row g-3 my-2">
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">72</h3>
+                                <p class="fs-5">Sent</p>
+                            </div>
+                            <i class="fas fa-share-square fs-1 primary-text border rounded-full secondary-bg p-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">49</h3>
+                                <p class="fs-5">Received</p>
+                            </div>
+                            <i
+                                class="fas fa-envelope-open-text fs-1 primary-text border rounded-full secondary-bg p-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">38</h3>
+                                <p class="fs-5">Unread</p>
+                            </div>
+                            <i class="fas fa-envelope fs-1 primary-text border rounded-full secondary-bg p-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">25</h3>
+                                <p class="fs-5">Starred</p>
+                            </div>
+                            <i class="fas fa-star fs-1 primary-text border rounded-full secondary-bg p-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5">
+                    <div class="p-3 shadow-sm d-flex justify-content-between align-items-center rounded">
+                    <h3 class="fs-4 mb-3 text-white">Recent Mails</h3>
+                    <a href="/create-mail/index.html">
+                         <button class="btn btn-light">Create mail</button>
+                    </a>
+                    </div>
                     <div class="col">
                         <table class="table bg-white rounded shadow-sm  table-hover">
                             <thead>
