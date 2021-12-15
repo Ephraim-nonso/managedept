@@ -13,33 +13,30 @@
 </head>
 <body>
     <div class="login-form">
-        <form action="#">
+        <form  autocomplete="on" method="POST" action="../dashboard/main.html" name="myForm">
             <div class="form-name">
                 <span>Sign In</i></span>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control item" id="username" placeholder="Username">
+                <input type="text" class="form-control item" id="username" name="username" placeholder="Username">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control item" id="password" placeholder="Password">
+                <input type="password" class="form-control item" id="password" placeholder="Password" autocomplete="on">
             </div>
             <div class="form-group">
+                <a href="../dashboard/main.html">
                 <button type="button" class="btn btn-block login-account">Login</button>
+
+                </a>
             </div>
             <div class="form-group">
                 <a href="#">Forgot your password??</a>
             </div>
         </form>
-        <div class="social-media">
-            <h5>Login with</h5>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-google"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
     <script src="js/all.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

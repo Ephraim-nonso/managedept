@@ -1,3 +1,9 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
 :root {
   --main-bg-color: #1a3875;
   --main-text-color: #1a3875;
@@ -92,4 +98,8 @@
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+.time {
+  font-size: 10px !important;
 }
